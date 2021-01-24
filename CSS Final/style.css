@@ -1,0 +1,121 @@
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 12px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: grey;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: grey;
+    color: white;
+  }
+
+  /* linkdin */
+  .fa-linkedin {
+    background: grey;
+    color: white;
+  }
+  /* google-plus */
+  .fa-google-plus {
+    background: grey;
+    color: white;
+  }
+  /* youtube */
+  .fa-youtube{
+    background: grey;
+    color: white;
+  }
+  .fa-phone{
+color:#91C637 !important;
+ }
+  .topbar {
+      padding: 15px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+background-color: black;
+  }
+ .topbar a {
+     color: white;
+   } 
+.topright {
+    float: right;
+}
+.w3-button {
+background-color:#91C637 ;
+color:black;
+border: none;
+  color: black;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px;
+  border-radius: 4px;
+}
+.header img {
+    width: 150px;
+    height: 90px;
+}
+.header {
+    margin: 0 auto;
+    width: 80%;
+}
+.logo {
+    float: left;
+    margin-left: -100px;
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+display: inline-block;
+margin:10px;
+padding-top: 25px;
+position: relative;
+padding-left: -30px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+nav a:hover {
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+nav a::after{
+    content: "";
+    height: 5px;
+    display: block;
+    width: 0%;
+    background-color: #FEBD19;
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+nav a:hover::after {
+    width: 100%;
+}
